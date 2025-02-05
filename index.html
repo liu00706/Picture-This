@@ -15,8 +15,54 @@
       <h1>Picture This!</h1>
       <h4>My Really Cool Blog Post</h4>
     </div>
-    <img src="images/museum.jpg" alt="placeholder">
+    <picture>
+      <source 
+      srcset="images/Landscape-museum-320x320.jpg 1x,
+      images/Landscape-museum-320x640.jpg 2x,
+      images/Landscape-museum-320x960.jpg 3x" 
+      media="(max-width:320px)"/>
+      
+      <source 
+      srcset="images/Landscape-museum-480x480.jpg 1x,
+      images/Landscape-museum-480x960.jpg 2x,
+      images/Landscape-museum-480x1440.jpg 3x" 
+      media="(max-width:480px)"/>
 
+      <source 
+      srcset="images/Landscape-museum-720x720.jpg 1x,
+      images/Landscape-museum-720x1440.jpg 2x,
+      images/Landscape-museum-720x2160.jpg 3x" 
+      media="(max-width:720px)"/>
+
+      <source 
+      srcset="images/Landscape-museum-960x960.jpg 1x,
+      images/Landscape-museum-960x1920.jpg 2x,
+      images/Landscape-museum-960x2880.jpg 3x" 
+      media="(max-width:960px)"/>
+
+      <source 
+      srcset="images/Landscape-museum-960x480.jpg 1x,
+      images/Landscape-museum-960x960.jpg 2x,
+      images/Landscape-museum-960x1440.jpg 3x" 
+      media="(max-width:1280px)"/>
+
+      <source 
+      srcset="images/Square-museum-1280x640.jpg 1x,
+      images/Square-museum-1280x1280.jpg 2x,
+      images/Square-museum-1280x1920.jpg 3x" 
+      media="(max-width:1600px)"/>
+
+      <source 
+      srcset="images/Square-museum-1600x800.jpg 1x,
+      images/Square-museum-1600x1600.jpg 2x,
+      images/Square-museum-1600x2400.jpg 3x" 
+      media="(min-width:1601px)"/>
+
+      <img src="images/Landscape-museum-720x1440.jpg" alt="maple trees in fall">
+
+      
+    </picture>
+    
   </header>
 </body>
 
